@@ -1,0 +1,112 @@
+/*--------------------------*/
+/*---------- DEFAULT SETUP --------*/
+/*--------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffffff;
+    color: #5a5a5a;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------*/
+/*---------- REUSABLE COMPONENT --------*/
+/*--------------------------*/
+
+.row {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 300%;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 135%;
+    margin-bottom: 50px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 100, 42);
+    padding: 10px 30px;
+    border-radius: 30px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s;
+}
+
+.btn:hover {
+    background-color: rgb(208, 67, 15);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*--------------------------*/
+/*---------- HEADER --------*/
+/*--------------------------*/
+
+header {
+    background-image: linear-gradient(45deg, rgba(38, 80, 119, 0.8) 55%, rgba(45, 95, 93, 0.31)), url("../img/background4.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.logo {
+    width: 350px;
+    float: left;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    font-weight: bold;
+    transition: border-bottom 0.5s;
+    padding: 3px 0;
+}
+
+.main-nav li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.heading-main-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -55%);
+    width: 1140px;
+}
