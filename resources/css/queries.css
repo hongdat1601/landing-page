@@ -1,0 +1,19 @@
+/* Big tablet to 1200px */
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    .heading-main-box {
+        transform: translate(-35%, -55%);
+    }
+}
+
+/* Small tablet to big tablet from 768px to 1023px */
+
+
+
+/* Small phones to small tablet from 481px to 767px */
+
+/* Small phones to 480px */

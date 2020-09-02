@@ -16,12 +16,16 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /*--------------------------*/
 /*---------- REUSABLE COMPONENT --------*/
 /*--------------------------*/
 
 .row {
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -96,7 +100,8 @@ h2::after {
     text-align: center;
     color: #265077;
     letter-spacing: 1px;
-    margin: 50px auto;
+    margin-left: 15%;
+    margin-top: 30px;
     width: 70%;
 
 }
@@ -383,7 +388,7 @@ figcaption {
 form {
     background-color: rgba(0, 0, 0, .5);
     margin-left: 40%;
-    width:65%;
+    width:55%;
     padding: 30px;
     margin-bottom: 30px;
 }
