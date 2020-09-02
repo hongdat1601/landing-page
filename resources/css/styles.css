@@ -26,7 +26,8 @@ html {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -38,6 +39,24 @@ h1 {
     word-spacing: 5px;
     line-height: 135%;
     margin-bottom: 50px;
+}
+
+h2 {
+    color: rgb(255, 100, 42);
+    text-align: center;
+    font-size: 180%;
+    font-weight: bold;
+}
+
+h3 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgba(38, 80, 119, 0.966);
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 15px;
 }
 
 .btn {
@@ -62,13 +81,6 @@ h1 {
     clear: both;
 }
 
-h2 {
-    color: rgb(255, 100, 42);
-    text-align: center;
-    font-size: 180%;
-    font-weight: bold;
-}
-
 h2::after {
     content: "";
     display: block;
@@ -90,6 +102,12 @@ h2::after {
 
 section {
     padding: 50px;
+}
+
+.small-icon {
+    color: #5480a8;
+    font-size: 120%;
+    margin-right: 10px;
 }
 
 /*--------------------------*/
@@ -183,4 +201,47 @@ header {
 
 .about-picture:hover img {
     filter: blur(2px) brightness(50%);
+}
+
+/*--------------------------*/
+/*---------- PRODUCTS SECTION --------*/
+/*--------------------------*/
+
+.products-section {
+    background-color: rgba(238, 238, 238, 0.616);
+}
+
+.products-section h2 {
+    margin-bottom: 60px;
+}
+
+.product-box {
+    background-color: #f3fdfd;
+    width: 90%;
+    height: 350px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 3px 3px 10px #c8c9c9;
+}
+
+.product-price {
+    color: #265077;
+    font-size: 250%;
+    font-weight: 300;
+    text-align: center;
+}
+
+.product-price span {
+    font-size: 80%;
+}
+
+.product-box ul li {
+    margin-left: 20%;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-box .btn {
+    margin-left: 20%;
 }
