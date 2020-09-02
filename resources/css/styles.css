@@ -245,3 +245,49 @@ header {
 .product-box .btn {
     margin-left: 20%;
 }
+
+/*--------------------------*/
+/*---------- TESTIMONIALS SECTION --------*/
+/*--------------------------*/
+
+.testimonials-section {
+    background-image: linear-gradient(45deg, rgba(38, 80, 119, 0.8) 55%, rgba(45, 95, 93, 0.31)), url(../img/background2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.testimonials-section h2 {
+    margin-bottom: 70px;
+}
+
+blockquote {
+    position: relative;
+    width: 95%;
+    font-style: italic;
+    line-height: 140%;
+    color: white;
+}
+
+blockquote::before {
+    content: '\201C';
+    display: block;
+    font-size: 400%;
+    position: absolute;
+    top: -10px;
+    left: -15px;
+}
+
+cite {
+    display: block;
+    color: #609ad1;
+    margin-top: 25px;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #265077;
+    vertical-align: middle;
+    margin-right: 5px;
+}
