@@ -291,3 +291,50 @@ cite img {
     vertical-align: middle;
     margin-right: 5px;
 }
+
+/*--------------------------*/
+/*---------- SPONSORS SECTION --------*/
+/*--------------------------*/
+
+.sponsors-section {
+    background-color: rgba(238, 238, 238, 0.616);
+}
+
+.sponsors-section h2 {
+    margin-bottom: 50px;
+}
+
+.sponsors-showcase {
+    margin-left: 8%;
+}
+
+.sponsors-showcase li {
+    list-style: none;
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-sponsor {
+    width: 140px;
+    transition: all 0.3s;
+}
+
+.logo-sponsor:hover {
+    transform: scale(1.2);
+}
+
+figcaption {
+    color: #265077;
+    font-size: 120%;
+    font-weight: 900;
+}
+
+/*--------------------------*/
+/*---------- CONTACT SECTION --------*/
+/*--------------------------*/
+
+/*--------------------------*/
+/*---------- FOOTER --------*/
+/*--------------------------*/
