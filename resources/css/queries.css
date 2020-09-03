@@ -8,6 +8,18 @@
     .heading-main-box {
         transform: translate(-80%, -55%);
     }
+
+    .product-box ul li {
+        margin-left: 10%;
+    }
+
+    .product-box .btn {
+        margin-left: 13%
+    }
+
+    form {
+        width: 70%;
+    }
 }
 
 /* Small tablet to big tablet from 768px to 1023px */
@@ -20,7 +32,7 @@
     }
 
     .main-nav {
-        margin-right: 0;
+        margin-right: 30px;
         margin-top: 45px;
     }
 
@@ -37,7 +49,6 @@
     }
 
     h1 {
-        font-size: 300%;
         width: 140%;
     }
 
@@ -62,8 +73,24 @@
         margin-left: 10%;
     }
 
+    .logo-sponsor:hover {
+        transform: scale(1.1);
+    }
+
+    .information {
+        margin-top: 40px;
+    }
+
+    .information li {
+        margin-bottom: 10px;
+    }
+
     .information i {
         display: block;
+    }
+
+    .information .small-icon:hover {
+        transform: scale(1);
     }
 
     .social-icons li {
@@ -79,12 +106,130 @@
 
 /* Small phones to small tablet from 481px to 767px */
 
-@media only screen and (max-width: 1023px){
-    
+@media only screen and (max-width: 767px){
+    .col {
+        width: 100%;
+        margin: 5% 0;
+    }
+
+    .main-nav{
+        visibility: hidden;
+    }
+
+    .logo {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    h1 {
+        font-size: 220%;
+        width: 100%
+    }
+
+    .heading-main-box {
+        transform: translate(0,-55%);
+        width: 90%;
+        left: 5%;
+        padding-left: 5%;
+    }
+
+    .heading-main-box .btn {
+        position: relative;
+        left: 5%;
+    }
+
+    .p-long {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .about-section .row {
+        text-align: center;
+    }
+
+    .about-picture img {
+        width: 70%;
+    }
+
+    .picture-title {
+        font-size: 120%
+    }
+
+    .product-box {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .product-box ul li {
+        font-size: 110%;
+        margin-left: 15%;
+    }
+
+    .product-box .btn {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    figcaption {
+        visibility: hidden;
+    }
+
+    .logo-sponsor {
+        width: 100%;
+    }
+
+    .contact-section .row {
+        text-align: center;
+    }
+
+    .information li {
+        font-size: 120%;
+    }
+
+    .social-icons {
+        font-size: 140%;
+    }
+
+    form {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    textarea, input {
+        margin-left: 0;
+    }
+
+    form .row {
+        margin-bottom: 0;
+    }
 }
 
-/* Small phones to 480px */
+/* Small phones 390px to 480px */
 
-@media only screen and (max-width: 1023px){
-    
+@media only screen and (max-width: 480px){
+    h1 {
+        font-size: 180%;
+    }
+
+    .heading-main-box .btn {
+        display: block;
+        margin-bottom: 5%;
+        width: 60%;
+        margin-left: 10%;
+    }
+
+    .p-long {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+
+    .picture-title{
+        font-size: 100%;
+        left: 55%;
+    }
+
+    blockquote {
+        margin-bottom: 50px;
+    }
 }
