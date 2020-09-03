@@ -113,12 +113,17 @@
     }
 
     .main-nav{
-        visibility: hidden;
+        display: none;
     }
 
     .logo {
         width: 60%;
-        margin-left: 20%;
+        margin-left: 5%;
+        margin-bottom: -100px;
+    }
+
+    .nav-icon {
+        visibility: visible;
     }
 
     h1 {
