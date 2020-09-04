@@ -216,6 +216,8 @@
         font-size: 180%;
     }
 
+
+
     .heading-main-box .btn {
         display: block;
         margin-bottom: 5%;
@@ -234,7 +236,25 @@
         left: 55%;
     }
 
+    .main-nav li {
+        font-size: 80%;
+        margin-right: 10px;
+    }
+
+    .nav-icon {
+        position: relative;
+        margin-top: 7%;
+        margin-left: -7%;
+        left: 20%;
+    }
+
     blockquote {
         margin-bottom: 50px;
+    }
+
+    .sticky .nav-icon {
+        margin-left: 20px;
+        margin-top: 13%;
+        left: 75%;
     }
 }
